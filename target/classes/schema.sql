@@ -5,3 +5,10 @@ create table student
    course varchar(255) not null,
    primary key(id)
 );
+
+create table customers
+(
+    id integer not null,
+    orders integer not null,
+    primary key(id,orders)
+);
